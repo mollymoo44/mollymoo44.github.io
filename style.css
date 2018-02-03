@@ -76,6 +76,37 @@ li{
 	position:absolute;
     left:210px;
 }
+.dbarleft{
+	top:326px;
+	z-index:1;
+	left:210px;
+	background-color:white;
+	width:500px; height:46px;
+	position:absolute;
+    filter:opacity(60%);
+}
+.dbarright{
+	top:326px;
+	z-index:1;
+	left:1210px;
+	background-color:white;
+	width:500px; height:46px;
+	position:absolute;
+    filter:opacity(60%);
+}
+.description h2{
+	color:white;
+	font-family:tahoma;
+	font-size:50px;
+	text-align:center;
+	text-decoration:underline;
+}
+.description p{
+	color:white;
+	font-family:tahoma;
+	font-size:25px;
+	text-align:center;
+}
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {

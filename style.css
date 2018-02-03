@@ -1,7 +1,7 @@
 body{
 	padding:0; margin:0;
 	background-image:url(images/background.png);
-	width:1920px;
+	background-attachment:fixed;
 }
 .navbackground{
 	height:60px;
@@ -19,8 +19,7 @@ body{
 	top:13.5px;
 }
 ul{
-	margin:0;
-	padding:0;
+	margin:0; padding:0;
 	list-style-type:none;
 	text-align:center;
 }
@@ -69,6 +68,7 @@ li{
     width:1920px; height:50px;
 }
 .description{
+	padding:0; margin:0;
 	filter:opacity(50%);
 	background-color:black;
 	width:1500px; height:735px;
@@ -118,7 +118,6 @@ and (max-device-width : 1024px) {
 	filter:opacity(50%);
 	background-color:black;
 	width:100%; height:735px;
-	display:inline-block;
 	position:absolute;
     left:210px;
 }

@@ -1,0 +1,746 @@
+body{
+	padding:0; margin:0;
+	background-image:url(images/background.png);
+	background-attachment:fixed;
+}
+.navbackground{
+	height:60px;
+	width:100%;
+	background-color:black;
+	filter:opacity(50%);
+}
+.nav{
+	height:60px;
+	width:100%;
+	position:absolute;
+	top:0px;
+}
+.nav li a{
+	top:13.5px;
+}
+ul{
+	margin:0; padding:0;
+	list-style-type:none;
+	text-align:center;
+}
+li a{
+	color:black;
+	text-decoration:none;
+	font-family:verdana;
+	font-size:25px;
+	padding:14px;
+	position:relative;
+	padding-top:14px;
+	padding-bottom:14px;
+	padding-left:25px;
+	padding-right:25px;
+}
+li a:hover{
+	filter:drop-shadow(1px 1px 1px black);
+}
+li{
+	display:inline-block;
+}
+.whitebartop{
+	padding:0; margin:0;
+	filter:opacity(40%);
+	background-color:white;
+    width:100%; height:50px;
+}
+.heading{
+	padding:0; margin:0;
+	filter:opacity(40%);
+	background-color:black;
+    width:100%; height:110px;
+}
+.heading h1{
+	padding:0; margin:0;
+	filter:opacity(100%);
+	color:white;
+	font-family:tahoma;
+	font-size:80px;
+	text-align:center;
+}
+.whitebarbottom{
+	padding:0; margin:0;
+	filter:opacity(40%);
+	background-color:white;
+    width:100%; height:50px;
+}
+.genres{
+	width:100%; height:678px;
+}
+.genres h1{
+	padding:0; margin:0;
+	padding-bottom:10px;
+	filter:opacity(70%);
+	color:white;
+	font-family:tahoma;
+	font-size:50px;
+	text-align:center;
+}
+.barseparate{
+	padding:0; margin:0;
+	filter:opacity(40%);
+	background-color:white;
+    width:100%; height:50px;
+}
+img{
+	display:block;
+}
+.nav a{
+	color:inherit;
+	font-family:verdana;
+	font-size:25px;
+	text-decoration:none;
+}
+p{
+	padding:0;
+	margin:0;
+}
+.genres .row{
+	padding:0;
+	margin:0;
+}
+.genres .column{
+   float:left;
+   width:25%;
+   padding:0;
+   margin:0;
+}
+.genres .column img{
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.genres a{
+	text-decoration:none;
+	color:inherit;
+	font-size:40px;
+}
+.action {
+  position: relative;
+  width: 100%;
+}
+
+.actionimage {
+  display:block;
+  width:100%;
+  height:278px;
+}
+
+.actionoverlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.action:hover .actionoverlay {
+  bottom: 0;
+  height: 100%;
+  filter:opacity(60%);
+}
+
+.actiontext {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.rpg {
+  position: relative;
+  width: 100%;
+}
+.rpgimage {
+  display:block;
+  width:100%;
+  height:278px;
+}
+.rpgoverlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+.rpg:hover .rpgoverlay {
+  bottom: 0;
+  height: 100%;
+  filter:opacity(60%);
+}
+.rpgtext {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.strategy {
+  position: relative;
+  width: 100%;
+}
+
+.strategyimage {
+  display: block;
+  width: 100%;
+  height: 278px;
+}
+
+.strategyoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.strategy:hover .strategyoverlay {
+  height: 100%;
+  filter:opacity(60%);
+}
+
+.strategytext {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.adventure {
+  position: relative;
+  width: 100%;
+}
+
+.adventureimage {
+  display: block;
+  width: 100%;
+  height: 278px;
+}
+
+.adventureoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.adventure:hover .adventureoverlay {
+  height: 100%;
+  filter:opacity(60%);
+}
+
+.adventuretext {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.indie {
+  position: relative;
+  width: 100%;
+}
+
+.indieimage {
+  display:block;
+  width:100%;
+  height:278px;
+}
+
+.indieoverlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.indie:hover .indieoverlay {
+	filter:opacity(60%);
+  bottom: 0;
+  height: 100%;
+}
+
+.indietext {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.simulation {
+  position: relative;
+  width: 100%;
+}
+
+.simulationimage {
+  display: block;
+  width: 100%;
+  height: 278px;
+}
+
+.simulationoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.simulation:hover .simulationoverlay {
+	filter:opacity(60%);
+  height: 100%;
+}
+
+.simulationtext {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.casual {
+  position: relative;
+  width: 100%;
+}
+
+.casualimage {
+  display:block;
+  width:100%;
+  height:278px;
+}
+
+.casualoverlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.casual:hover .casualoverlay {
+	filter:opacity(60%);
+  bottom: 0;
+  height: 100%;
+}
+
+.casualtext {
+  font-family:tahoma;
+  color:white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.software {
+  position: relative;
+  width: 100%;
+}
+
+.softwareimage {
+  display: block;
+  width: 100%;
+  height: 278px;
+}
+
+.softwareoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.software:hover .softwareoverlay {
+	filter:opacity(60%);
+  height: 100%;
+}
+
+.softwaretext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.whitebarbottom1{
+	padding:0; margin:0;
+	filter:opacity(40%);
+	background-color:white;
+    width:100%; height:50px;
+}
+.genre1title{
+	padding:0; margin:0;
+	filter:opacity(50%);
+	background-color:black;
+	width:1500px; height:150px;
+	display:inline-block;
+	position:relative;
+    left:210px;
+}
+.dbarleft{
+	top:1048px;
+	z-index:1;
+	left:210px;
+	background-color:white;
+	width:640px; height:46px;
+	position:absolute;
+    filter:opacity(60%);
+}
+.dbarright{
+	top:1048px;
+	z-index:1;
+	left:1070px;
+	background-color:white;
+	width:640px; height:46px;
+	position:absolute;
+    filter:opacity(60%);
+}
+.sidebarleft{
+	margin:0; padding:0;
+	left:190px;
+background-color:white;
+width:20px; height:2000px;
+filter:opacity(60%);
+position:absolute;
+}
+.sidebarright{
+	left:1710px;
+	margin:0; padding:0;
+background-color:white;
+width:20px; height:2000px;
+filter:opacity(60%);
+position:absolute;
+}
+.genre1title h2{
+	color:white;
+	font-family:tahoma;
+	font-size:50px;
+	text-align:center;
+}
+.genre1{
+		padding:0; margin:0;
+		width:1500px; height:1000px
+}
+.genre1 .row{
+margin:0;
+padding:0;
+}
+.genre1 .column{
+	   float:left;
+   width:50%;
+   padding:0;
+   margin:0;
+}
+.genre1 .column img{
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.overwatch{  position: relative;
+  width: 750px;
+  margin-left:210px;
+}
+
+.overwatchimage {
+  display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.overwatchoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.overwatch:hover .overwatchoverlay {
+	filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.overwatchtext {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.atot {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.atotimage {
+	  display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.atotoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.atot:hover .atotoverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.atottext {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.codwwii {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.codwwiiimage {
+	  display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.codwwiioverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.codwwii:hover .codwwiioverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.codwwiitext {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.destiny2{  position: relative;
+  width: 750px;
+  margin-left:210px;
+}
+
+.destiny2image {
+  display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.destiny2overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.destiny2:hover .destiny2overlay {
+	filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.destiny2text {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.farcry4{  position: relative;
+  width: 750px;
+  margin-left:210px;
+}
+
+.farcry4image {
+  display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.farcry4overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.farcry4:hover .farcry4overlay {
+	filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.farcry4text {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.gtav {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.gtavimage {
+	  display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.gtavoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.gtav:hover .gtavoverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.gtavtext {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}

@@ -439,39 +439,12 @@ p{
 	background-color:white;
     width:100%; height:50px;
 }
-/*Genre1: Action*/
-.genre1title{
-	padding:0; margin:0;
-	filter:opacity(50%);
-	background-color:black;
-	width:1500px; height:150px;
-	display:inline-block;
-	position:relative;
-    left:210px;
-}
-.dbarleft{
-	top:1048px;
-	z-index:1;
-	left:210px;
-	background-color:white;
-	width:640px; height:46px;
-	position:absolute;
-    filter:opacity(60%);
-}
-.dbarright{
-	top:1048px;
-	z-index:1;
-	left:1070px;
-	background-color:white;
-	width:640px; height:46px;
-	position:absolute;
-    filter:opacity(60%);
-}
+/*side bars*/
 .sidebarleft{
 	margin:0; padding:0;
 	left:190px;
 background-color:white;
-width:20px; height:3000px;
+width:20px; height:6000px;
 filter:opacity(60%);
 position:absolute;
 }
@@ -479,9 +452,37 @@ position:absolute;
 	left:1710px;
 	margin:0; padding:0;
 background-color:white;
-width:20px; height:3000px;
+width:20px; height:6000px;
 filter:opacity(60%);
 position:absolute;
+}
+/*Genre1: Action*/
+.genre1title{
+  padding:0; margin:0;
+  filter:opacity(50%);
+  background-color:black;
+  width:1500px; height:150px;
+  display:inline-block;
+  position:relative;
+    left:210px;
+}
+.dbarleft{
+  top:1048px;
+  z-index:1;
+  left:210px;
+  background-color:white;
+  width:640px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.dbarright{
+  top:1048px;
+  z-index:1;
+  left:1070px;
+  background-color:white;
+  width:640px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
 }
 .genre1title h2{
 	color:white;
@@ -1340,4 +1341,57 @@ padding:0;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   white-space: nowrap;
+}
+/*Genre4:Strategy*/
+.dbarleft3{
+  top:5103px;
+  z-index:1;
+  left:210px;
+  background-color:white;
+  width:630px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.dbarright3{
+  top:5103px;
+  z-index:1;
+  left:1080px;
+  background-color:white;
+  width:630px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.genre4title{
+  padding:0; margin:0;
+  filter:opacity(50%);
+  background-color:black;
+  width:1500px; height:150px;
+  display:inline-block;
+  position:relative;
+    left:210px;
+}
+.genre4title h2{
+  color:white;
+  font-family:tahoma;
+  font-size:50px;
+  text-align:center;
+}
+.genre4{
+    padding:0; margin:0;
+    width:1500px; height:1000px
+}
+.genre4 .row{
+margin:0;
+padding:0;
+}
+.genre4 .column{
+     float:left;
+   width:50%;
+   padding:0;
+   margin:0;
+}
+.genre4 .column img{
+  width:100%;
+  margin:0px;
+  padding:0px;
 }

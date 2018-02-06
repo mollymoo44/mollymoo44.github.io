@@ -3,11 +3,18 @@ body{
 	background-image:url(images/background.png);
 	background-attachment:fixed;
 }
+/*Nav Bar*/
 .navbackground{
 	height:60px;
 	width:100%;
 	background-color:black;
 	filter:opacity(50%);
+}
+.nav a{
+  color:inherit;
+  font-family:verdana;
+  font-size:25px;
+  text-decoration:none;
 }
 .nav{
 	height:60px;
@@ -41,6 +48,7 @@ li a:hover{
 li{
 	display:inline-block;
 }
+/*Header*/
 .whitebartop{
 	padding:0; margin:0;
 	filter:opacity(40%);
@@ -67,6 +75,7 @@ li{
 	background-color:white;
     width:100%; height:50px;
 }
+/*Genres Section*/
 .genres{
 	width:100%; height:678px;
 }
@@ -87,12 +96,6 @@ li{
 }
 img{
 	display:block;
-}
-.nav a{
-	color:inherit;
-	font-family:verdana;
-	font-size:25px;
-	text-decoration:none;
 }
 p{
 	padding:0;
@@ -436,6 +439,7 @@ p{
 	background-color:white;
     width:100%; height:50px;
 }
+/*Genre1: Action*/
 .genre1title{
 	padding:0; margin:0;
 	filter:opacity(50%);
@@ -467,7 +471,7 @@ p{
 	margin:0; padding:0;
 	left:190px;
 background-color:white;
-width:20px; height:2000px;
+width:20px; height:3000px;
 filter:opacity(60%);
 position:absolute;
 }
@@ -475,7 +479,7 @@ position:absolute;
 	left:1710px;
 	margin:0; padding:0;
 background-color:white;
-width:20px; height:2000px;
+width:20px; height:3000px;
 filter:opacity(60%);
 position:absolute;
 }
@@ -504,7 +508,8 @@ padding:0;
 	margin:0px;
 	padding:0px;
 }
-.overwatch{  position: relative;
+.overwatch{  
+  position: relative;
   width: 750px;
   margin-left:210px;
 }
@@ -735,6 +740,598 @@ padding:0;
 
 .gtavtext {
 	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+/*Genre2: Adventure*/
+.dbarleft1{
+  top:2400px;
+  z-index:1;
+  left:210px;
+  background-color:white;
+  width:610px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.dbarright1{
+  top:2400px;
+  z-index:1;
+  left:1100px;
+  background-color:white;
+  width:610px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.genre2title{
+  padding:0; margin:0;
+  filter:opacity(50%);
+  background-color:black;
+  width:1500px; height:150px;
+  display:inline-block;
+  position:relative;
+    left:210px;
+}
+.genre2title h2{
+  color:white;
+  font-family:tahoma;
+  font-size:50px;
+  text-align:center;
+}
+.genre2{
+    padding:0; margin:0;
+    width:1500px; height:1000px
+}
+.genre2 .row{
+margin:0;
+padding:0;
+}
+.genre2 .column{
+     float:left;
+   width:50%;
+   padding:0;
+   margin:0;
+}
+.genre2 .column img{
+  width:100%;
+  margin:0px;
+  padding:0px;
+}
+.ac3{  
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.ac3image {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.ac3overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.ac3:hover .ac3overlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.ac3text {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.dishonored {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.dishonoredimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.dishonoredoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.dishonored:hover .dishonoredoverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.dishonoredtext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.minecraft {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.minecraftimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.minecraftoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.minecraft:hover .minecraftoverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.minecrafttext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.steep {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.steepimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.steepoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.steep:hover .steepoverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.steeptext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.twd {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.twdimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.twdoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.twd:hover .twdoverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.twdtext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.twau {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.twauimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.twauoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.twau:hover .twauoverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.twautext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+/*Genre3: RPG*/
+.dbarleft2{
+  top:3749px;
+  z-index:1;
+  left:210px;
+  background-color:white;
+  width:650px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.dbarright2{
+  top:3749px;
+  z-index:1;
+  left:1060px;
+  background-color:white;
+  width:650px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.genre3title{
+  padding:0; margin:0;
+  filter:opacity(50%);
+  background-color:black;
+  width:1500px; height:150px;
+  display:inline-block;
+  position:relative;
+    left:210px;
+}
+.genre3title h2{
+  color:white;
+  font-family:tahoma;
+  font-size:50px;
+  text-align:center;
+}
+.genre3{
+    padding:0; margin:0;
+    width:1500px; height:1000px
+}
+.genre3 .row{
+margin:0;
+padding:0;
+}
+.genre3 .column{
+     float:left;
+   width:50%;
+   padding:0;
+   margin:0;
+}
+.genre3 .column img{
+  width:100%;
+  margin:0px;
+  padding:0px;
+}
+.ds3{  
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.ds3image {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.ds3overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.ds3:hover .ds3overlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.ds3text {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.dai {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.daiimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.daioverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.dai:hover .daioverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.daitext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.fo4 {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.fo4image {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.fo4overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.fo4:hover .fo4overlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.fo4text {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.mea {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.meaimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.meaoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.mea:hover .meaoverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.meatext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.skyrim {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.skyrimimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.skyrimoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.skyrim:hover .skyrimoverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.skyrimtext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.tw3 {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.tw3image {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.tw3overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.tw3:hover .tw3overlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.tw3text {
+  font-family:tahoma;
   color: white;
   font-size: 40px;
   position: absolute;

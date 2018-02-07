@@ -444,7 +444,7 @@ p{
 	margin:0; padding:0;
 	left:190px;
 background-color:white;
-width:20px; height:6000px;
+width:20px; height:10800px;
 filter:opacity(60%);
 position:absolute;
 }
@@ -452,7 +452,7 @@ position:absolute;
 	left:1710px;
 	margin:0; padding:0;
 background-color:white;
-width:20px; height:6000px;
+width:20px; height:10800px;
 filter:opacity(60%);
 position:absolute;
 }
@@ -1394,4 +1394,1431 @@ padding:0;
   width:100%;
   margin:0px;
   padding:0px;
+}
+.civvi{  
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.civviimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.civvioverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.civvi:hover .civvioverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.civvitext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.hw {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.hwimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.hwoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.hw:hover .hwoverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.hwtext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.pi {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.piimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.pioverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.pi:hover .pioverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.pitext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.sc {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.scimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.scoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.sc:hover .scoverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.sctext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.twrii{
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.twriiimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.twriioverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.twrii:hover .twriioverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.twriitext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.xcom2 {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.xcom2image {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.xcom2overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.xcom2:hover .xcom2overlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.xcom2text {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+/*Genre5: Indie*/
+.dbarleft4{
+  top:6450px;
+  z-index:1;
+  left:210px;
+  background-color:white;
+  width:650px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.dbarright4{
+  top:6450px;
+  z-index:1;
+  left:1060px;
+  background-color:white;
+  width:650px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.genre5title{
+  padding:0; margin:0;
+  filter:opacity(50%);
+  background-color:black;
+  width:1500px; height:150px;
+  display:inline-block;
+  position:relative;
+    left:210px;
+}
+.genre5title h2{
+  color:white;
+  font-family:tahoma;
+  font-size:50px;
+  text-align:center;
+}
+.genre5{
+    padding:0; margin:0;
+    width:1500px; height:1000px
+}
+.genre5 .row{
+margin:0;
+padding:0;
+}
+.genre5 .column{
+     float:left;
+   width:50%;
+   padding:0;
+   margin:0;
+}
+.genre5 .column img{
+  width:100%;
+  margin:0px;
+  padding:0px;
+}
+.ch{  
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.chimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.choverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.ch:hover .choverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.chtext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.fw {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.fwimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.fwoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.fw:hover .fwoverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.fwtext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.hn {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.hnimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.hnoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.hn:hover .hnoverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.hntext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.sr {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.srimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.sroverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.sr:hover .sroverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.srtext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.sub{
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.subimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.suboverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.sub:hover .suboverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.subtext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.sh {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.shimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.shoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.sh:hover .shoverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.shtext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+/*Genre6: Simulation*/
+.dbarleft5{
+  top:7800px;
+  z-index:1;
+  left:210px;
+  background-color:white;
+  width:600px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.dbarright5{
+  top:7800px;
+  z-index:1;
+  left:1110px;
+  background-color:white;
+  width:600px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.genre6title{
+  padding:0; margin:0;
+  filter:opacity(50%);
+  background-color:black;
+  width:1500px; height:150px;
+  display:inline-block;
+  position:relative;
+    left:210px;
+}
+.genre6title h2{
+  color:white;
+  font-family:tahoma;
+  font-size:50px;
+  text-align:center;
+}
+.genre6{
+    padding:0; margin:0;
+    width:1500px; height:1000px
+}
+.genre6 .row{
+margin:0;
+padding:0;
+}
+.genre6 .column{
+     float:left;
+   width:50%;
+   padding:0;
+   margin:0;
+}
+.genre6 .column img{
+  width:100%;
+  margin:0px;
+  padding:0px;
+}
+.ac{  
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.acimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.acoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.ac:hover .acoverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.actext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.cs {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.csimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.csoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.cs:hover .csoverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.cstext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.ets2 {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.ets2image {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.ets2overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.ets2:hover .ets2overlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.ets2text {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.pc {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.pcimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.pcoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.pc:hover .pcoverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.pctext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.ph {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.phimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.phoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.ph:hover .phoverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.phtext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.ts4 {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.ts4image {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.ts4overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.ts4:hover .ts4overlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.ts4text {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+/*Genre7: Casual*/
+.dbarleft6{
+  top:9150px;
+  z-index:1;
+  left:210px;
+  background-color:white;
+  width:650px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.dbarright6{
+  top:9150px;
+  z-index:1;
+  left:1060px;
+  background-color:white;
+  width:650px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.genre7title{
+  padding:0; margin:0;
+  filter:opacity(50%);
+  background-color:black;
+  width:1500px; height:150px;
+  display:inline-block;
+  position:relative;
+    left:210px;
+}
+.genre7title h2{
+  color:white;
+  font-family:tahoma;
+  font-size:50px;
+  text-align:center;
+}
+.genre7{
+    padding:0; margin:0;
+    width:1500px; height:1000px
+}
+.genre7 .row{
+margin:0;
+padding:0;
+}
+.genre7 .column{
+     float:left;
+   width:50%;
+   padding:0;
+   margin:0;
+}
+.genre7 .column img{
+  width:100%;
+  margin:0px;
+  padding:0px;
+}
+.dd{  
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.ddimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.ddoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.dd:hover .ddoverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.ddtext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.fs {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.fsimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.fsoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.fs:hover .fsoverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.fstext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.fb {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.fbimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.fboverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.fb:hover .fboverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.fbtext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.jq {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.jqimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.jqoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.jq:hover .jqoverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.jqtext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.pvsz {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.pvszimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.pvszoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.pvsz:hover .pvszoverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.pvsztext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.sv {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.svimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.svoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.sv:hover .svoverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.svtext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+/*Genre8: Software*/
+.dbarleft7{
+  top:10500px;
+  z-index:1;
+  left:210px;
+  background-color:white;
+  width:620px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.dbarright7{
+  top:10500px;
+  z-index:1;
+  left:1090px;
+  background-color:white;
+  width:620px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.genre8title{
+  padding:0; margin:0;
+  filter:opacity(50%);
+  background-color:black;
+  width:1500px; height:150px;
+  display:inline-block;
+  position:relative;
+    left:210px;
+}
+.genre8title h2{
+  color:white;
+  font-family:tahoma;
+  font-size:50px;
+  text-align:center;
+}
+.genre8{
+    padding:0; margin:0;
+    width:1500px; height:1000px
+}
+.genre8 .row{
+margin:0;
+padding:0;
+}
+.genre8 .column{
+     float:left;
+   width:50%;
+   padding:0;
+   margin:0;
+}
+.genre8 .column img{
+  width:100%;
+  margin:0px;
+  padding:0px;
+}
+.gfie{  
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.gfieimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.gfieoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.gfie:hover .gfieoverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.gfietext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.ps {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.psimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.psoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.ps:hover .psoverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.pstext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.pp {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.ppimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.ppoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.pp:hover .ppoverlay {
+  filter:opacity(60%);
+  width: 100%;
+  left: 0;
+}
+
+.pptext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.s10 {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.s10image {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.s10overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.s10:hover .s10overlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.s10text {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.we {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.weimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.weoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.we:hover .weoverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.wetext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.wr {
+  position: relative;
+  width: 750px;
+  left:210px;
+}
+
+.wrimage {
+    display: block;
+  width: 750px;
+  height: 400px;
+}
+
+.wroverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.wr:hover .wroverlay {
+  width: 100%;
+  filter:opacity(60%);
+}
+
+.wrtext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
 }

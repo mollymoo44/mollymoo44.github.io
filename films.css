@@ -280,26 +280,27 @@ p{
 }
 
 .fantasyimage {
-  display: block;
-  width: 100%;
-  height: 278px;
+  display:block;
+  width:100%;
+  height:278px;
 }
 
 .fantasyoverlay {
   position: absolute;
-  bottom: 0;
+  bottom: 100%;
   left: 0;
   right: 0;
   background-color: black;
   overflow: hidden;
   width: 100%;
-  height: 0;
+  height:0;
   transition: .5s ease;
 }
 
 .fantasy:hover .fantasyoverlay {
-  filter:opacity(60%);
+  bottom: 0;
   height: 100%;
+  filter:opacity(60%);
 }
 
 .fantasytext {
@@ -358,26 +359,27 @@ p{
 }
 
 .slasherimage {
-  display: block;
-  width: 100%;
-  height: 278px;
+  display:block;
+  width:100%;
+  height:278px;
 }
 
 .slasheroverlay {
   position: absolute;
-  bottom: 0;
+  bottom: 100%;
   left: 0;
   right: 0;
   background-color: black;
   overflow: hidden;
   width: 100%;
-  height: 0;
+  height:0;
   transition: .5s ease;
 }
 
 .slasher:hover .slasheroverlay {
-	filter:opacity(60%);
+  bottom: 0;
   height: 100%;
+  filter:opacity(60%);
 }
 
 .slashertext {

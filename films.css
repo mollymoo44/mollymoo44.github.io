@@ -241,31 +241,30 @@ p{
 }
 
 .documentaryimage {
-  display:block;
-  width:100%;
-  height:278px;
+  display: block;
+  width: 100%;
+  height: 278px;
 }
 
 .documentaryoverlay {
   position: absolute;
-  bottom: 100%;
+  bottom: 0;
   left: 0;
   right: 0;
   background-color: black;
   overflow: hidden;
   width: 100%;
-  height:0;
+  height: 0;
   transition: .5s ease;
 }
 
 .documentary:hover .documentaryoverlay {
-	filter:opacity(60%);
-  bottom: 0;
   height: 100%;
+  filter:opacity(60%);
 }
 
 .documentarytext {
-	font-family:tahoma;
+  font-family:tahoma;
   color: white;
   font-size: 40px;
   position: absolute;
@@ -299,12 +298,12 @@ p{
 }
 
 .fantasy:hover .fantasyoverlay {
-	filter:opacity(60%);
+  filter:opacity(60%);
   height: 100%;
 }
 
 .fantasytext {
-	font-family:tahoma;
+  font-family:tahoma;
   color: white;
   font-size: 40px;
   position: absolute;
@@ -320,32 +319,31 @@ p{
 }
 
 .scienceimage {
-  display:block;
-  width:100%;
-  height:278px;
+  display: block;
+  width: 100%;
+  height: 278px;
 }
 
 .scienceoverlay {
   position: absolute;
-  bottom: 100%;
+  bottom: 0;
   left: 0;
   right: 0;
   background-color: black;
   overflow: hidden;
   width: 100%;
-  height:0;
+  height: 0;
   transition: .5s ease;
 }
 
 .science:hover .scienceoverlay {
-	filter:opacity(60%);
-  bottom: 0;
   height: 100%;
+  filter:opacity(60%);
 }
 
 .sciencetext {
   font-family:tahoma;
-  color:white;
+  color: white;
   font-size: 40px;
   position: absolute;
   top: 50%;

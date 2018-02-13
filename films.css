@@ -1,0 +1,440 @@
+body{
+	padding:0; margin:0;
+	background-image:url(images/background.png);
+	background-attachment:fixed;
+}
+/*Nav Bar*/
+.navbackground{
+	height:60px;
+	width:100%;
+	background-color:black;
+	filter:opacity(50%);
+}
+.nav a{
+  color:inherit;
+  font-family:verdana;
+  font-size:25px;
+  text-decoration:none;
+}
+.nav{
+	height:60px;
+	width:100%;
+	position:absolute;
+	top:0px;
+}
+.nav li a{
+	top:13.5px;
+}
+ul{
+	margin:0; padding:0;
+	list-style-type:none;
+	text-align:center;
+}
+li a{
+	color:black;
+	text-decoration:none;
+	font-family:verdana;
+	font-size:25px;
+	padding:14px;
+	position:relative;
+	padding-top:14px;
+	padding-bottom:14px;
+	padding-left:25px;
+	padding-right:25px;
+}
+li a:hover{
+	filter:drop-shadow(1px 1px 1px black);
+}
+li{
+	display:inline-block;
+}
+/*Header*/
+.whitebartop{
+	padding:0; margin:0;
+	filter:opacity(40%);
+	background-color:white;
+    width:100%; height:50px;
+}
+.heading{
+	padding:0; margin:0;
+	filter:opacity(40%);
+	background-color:black;
+    width:100%; height:110px;
+}
+.heading h1{
+	padding:0; margin:0;
+	filter:opacity(100%);
+	color:white;
+	font-family:tahoma;
+	font-size:80px;
+	text-align:center;
+}
+.whitebarbottom{
+	padding:0; margin:0;
+	filter:opacity(40%);
+	background-color:white;
+    width:100%; height:50px;
+}
+.genres{
+	width:100%; height:678px;
+}
+.genres h1{
+	padding:0; margin:0;
+	padding-bottom:10px;
+	filter:opacity(70%);
+	color:white;
+	font-family:tahoma;
+	font-size:50px;
+	text-align:center;
+}
+.barseparate{
+	padding:0; margin:0;
+	filter:opacity(40%);
+	background-color:white;
+    width:100%; height:50px;
+}
+img{
+	display:block;
+}
+p{
+	padding:0;
+	margin:0;
+}
+.genres .row{
+	padding:0;
+	margin:0;
+}
+.genres .column{
+   float:left;
+   width:25%;
+   padding:0;
+   margin:0;
+}
+.genres .column img{
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.genres a{
+	text-decoration:none;
+	color:inherit;
+	font-size:40px;
+}
+.chick {
+  position: relative;
+  width: 100%;
+}
+.chickimage {
+  display:block;
+  width:100%;
+  height:278px;
+}
+.chickoverlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+.chick:hover .chickoverlay {
+  bottom: 0;
+  height: 100%;
+  filter:opacity(60%);
+}
+.chicktext {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.horror {
+  position: relative;
+  width: 100%;
+}
+
+.horrorimage {
+  display: block;
+  width: 100%;
+  height: 278px;
+}
+
+.horroroverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.horror:hover .horroroverlay {
+  height: 100%;
+  filter:opacity(60%);
+}
+
+.horrortext {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.action {
+  position: relative;
+  width: 100%;
+}
+
+.actionimage {
+  display:block;
+  width:100%;
+  height:278px;
+}
+
+.actionoverlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.action:hover .actionoverlay {
+  bottom: 0;
+  height: 100%;
+  filter:opacity(60%);
+}
+
+.actiontext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.documentary {
+  position: relative;
+  width: 100%;
+}
+
+.documentaryimage {
+  display:block;
+  width:100%;
+  height:278px;
+}
+
+.documentaryoverlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.documentary:hover .documentaryoverlay {
+	filter:opacity(60%);
+  bottom: 0;
+  height: 100%;
+}
+
+.documentarytext {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.fantasy {
+  position: relative;
+  width: 100%;
+}
+
+.fantasyimage {
+  display: block;
+  width: 100%;
+  height: 278px;
+}
+
+.fantasyoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.fantasy:hover .fantasyoverlay {
+	filter:opacity(60%);
+  height: 100%;
+}
+
+.fantasytext {
+	font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.science {
+  position: relative;
+  width: 100%;
+}
+
+.scienceimage {
+  display:block;
+  width:100%;
+  height:278px;
+}
+
+.scienceoverlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.science:hover .scienceoverlay {
+	filter:opacity(60%);
+  bottom: 0;
+  height: 100%;
+}
+
+.sciencetext {
+  font-family:tahoma;
+  color:white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.slasher {
+  position: relative;
+  width: 100%;
+}
+
+.slasherimage {
+  display: block;
+  width: 100%;
+  height: 278px;
+}
+
+.slasheroverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.slasher:hover .slasheroverlay {
+	filter:opacity(60%);
+  height: 100%;
+}
+
+.slashertext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.adventure {
+  position: relative;
+  width: 100%;
+}
+
+.adventureimage {
+  display: block;
+  width: 100%;
+  height: 278px;
+}
+
+.adventureoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.adventure:hover .adventureoverlay {
+  height: 100%;
+  filter:opacity(60%);
+}
+
+.adventuretext {
+  font-family:tahoma;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.whitebarbottom1{
+  padding:0; margin:0;
+  filter:opacity(40%);
+  background-color:white;
+    width:100%; height:50px;
+}

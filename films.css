@@ -499,7 +499,7 @@ p{
   height: auto;
 }
 
-.overlay {
+.chickgenre .overlay {
   padding:0; margin:0;
   position: absolute;
   bottom: 0;
@@ -512,7 +512,7 @@ p{
   transition: .5s ease;
 }
 
-.container:hover .overlay {
+.chickgenre .container:hover .overlay {
   filter:opacity(50%);
   width: 50%;
 }
@@ -564,4 +564,178 @@ p{
   left:10px;
   top:260px;
   position:absolute;
+}
+/*Genre2= Horror*/
+.genre2title{
+  padding:0; margin:0;
+  filter:opacity(50%);
+  background-color:black;
+  width:1500px; height:150px;
+  display:inline-block;
+  position:relative;
+    left:210px;
+}
+.dbarleft2{
+  top:2790px;
+  z-index:1;
+  float:left;
+  background-color:white;
+  width:830px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.dbarright2{
+  top:2790px;
+  z-index:1;
+  right:0;
+  background-color:white;
+  width:830px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.horrorgenretitle h2{
+  color:white;
+  font-family:tahoma;
+  font-size:50px;
+  text-align:center;
+}
+.horrorgenre .overlay {
+  padding:0; margin:0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: red;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.horrorgenre .container:hover .overlay {
+  filter:opacity(70%);
+  width: 50%;
+}
+.texas{
+  height:400px;
+  width:100%;
+}
+.visit{
+  height:400px;
+  width:100%;
+}
+.follows{
+  height:400px;
+  width:100%;
+}
+/*Genre3= Action*/
+.genre3title{
+  padding:0; margin:0;
+  filter:opacity(50%);
+  background-color:black;
+  width:1500px; height:150px;
+  display:inline-block;
+  position:relative;
+    left:210px;
+}
+.dbarleft3{
+  top:4532px;
+  z-index:1;
+  float:left;
+  background-color:white;
+  width:840px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.dbarright3{
+  top:4532px;
+  z-index:1;
+  right:0;
+  background-color:white;
+  width:840px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.actiongenretitle h2{
+  color:white;
+  font-family:tahoma;
+  font-size:50px;
+  text-align:center;
+}
+.actiongenre .overlay {
+  padding:0; margin:0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: gold;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.wonder{
+  height:400px;
+  width:100%;
+}
+.panther{
+  height:400px;
+  width:100%;
+}
+.taken{
+  height:400px;
+  width:100%;
+}
+.actiongenre .container:hover .overlay {
+  filter:opacity(70%);
+  width: 50%;
+}
+/*Genre4= Documentary*/
+.genre4title{
+  padding:0; margin:0;
+  filter:opacity(50%);
+  background-color:black;
+  width:1500px; height:150px;
+  display:inline-block;
+  position:relative;
+    left:210px;
+}
+.dbarleft4{
+  top:6275px;
+  z-index:1;
+  float:left;
+  background-color:white;
+  width:760px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.dbarright4{
+  top:6275px;
+  z-index:1;
+  right:0;
+  background-color:white;
+  width:760px; height:46px;
+  position:absolute;
+    filter:opacity(60%);
+}
+.documentarygenretitle h2{
+  color:white;
+  font-family:tahoma;
+  font-size:50px;
+  text-align:center;
+}
+.documentarygenre .overlay {
+  padding:0; margin:0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: grey;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.documentarygenre .container:hover .overlay {
+  filter:opacity(70%);
+  width: 50%;
 }
